@@ -1,0 +1,107 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1140563000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to NHS Costs checker tool",
+            "match": {
+              "location": "EndToEndJourney.i_navigate_to_NHS_Costs_checker_tool()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6159618400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeStartUp(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Wales Test Ticket - Acceptance Criteria",
+        "description": "",
+        "id": "nhs-costs-checker-end-to-end-journey;wales-test-ticket---acceptance-criteria",
+        "after": [
+          {
+            "result": {
+              "duration": 677025501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915256599,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "EndToEndJourney.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5424213700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I put my circumstances into the Checker tool",
+            "match": {
+              "location": "EndToEndJourney.i_put_my_circumstances_into_the_Checker_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54681001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "EndToEndJourney.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NHS Costs checker End to End journey",
+    "description": "\n\tAs a person from Wales\n\tI need to know what help I can get with my NHS costs\n\tSo that I can get the treatment I need",
+    "id": "nhs-costs-checker-end-to-end-journey",
+    "keyword": "Feature",
+    "uri": "testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@EndToEnd"
+      }
+    ]
+  }
+]
