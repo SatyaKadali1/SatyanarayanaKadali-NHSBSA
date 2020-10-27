@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 2,
   "name": "NHS Costs checker End to End journey",
-  "description": "\n\tAs a person from Wales\n\tI need to know what help I can get with my NHS costs\n\tSo that I can get the treatment I need",
+  "description": "\r\n\tAs a person from Wales\r\n\tI need to know what help I can get with my NHS costs\r\n\tSo that I can get the treatment I need",
   "id": "nhs-costs-checker-end-to-end-journey",
   "keyword": "Feature",
   "tags": [
@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6159618400,
+  "duration": 6872635600,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "EndToEndJourney.i_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 1140563000,
+  "duration": 1894118500,
   "status": "passed"
 });
 formatter.scenario({
@@ -62,25 +62,25 @@ formatter.match({
   "location": "EndToEndJourney.i_am_a_person_from_Wales()"
 });
 formatter.result({
-  "duration": 915256599,
+  "duration": 1146720800,
   "status": "passed"
 });
 formatter.match({
   "location": "EndToEndJourney.i_put_my_circumstances_into_the_Checker_tool()"
 });
 formatter.result({
-  "duration": 5424213700,
+  "duration": 7658290700,
   "status": "passed"
 });
 formatter.match({
   "location": "EndToEndJourney.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
 });
 formatter.result({
-  "duration": 54681001,
+  "duration": 57097500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 677025501,
+  "duration": 932667100,
   "status": "passed"
 });
 });

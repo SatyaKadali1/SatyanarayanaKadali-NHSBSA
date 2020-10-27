@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1140563000,
+              "duration": 1894118500,
               "status": "passed"
             },
             "line": 10,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 6159618400,
+              "duration": 6872635600,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 677025501,
+              "duration": 932667100,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 915256599,
+              "duration": 1146720800,
               "status": "passed"
             },
             "line": 14,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 5424213700,
+              "duration": 7658290700,
               "status": "passed"
             },
             "line": 15,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 54681001,
+              "duration": 57097500,
               "status": "passed"
             },
             "line": 16,
@@ -93,7 +93,7 @@
       }
     ],
     "name": "NHS Costs checker End to End journey",
-    "description": "\n\tAs a person from Wales\n\tI need to know what help I can get with my NHS costs\n\tSo that I can get the treatment I need",
+    "description": "\r\n\tAs a person from Wales\r\n\tI need to know what help I can get with my NHS costs\r\n\tSo that I can get the treatment I need",
     "id": "nhs-costs-checker-end-to-end-journey",
     "keyword": "Feature",
     "uri": "testcase.feature",
